@@ -53,7 +53,7 @@
         }
     }
     $quadraticEquation = new QuadraticEquation(1,3,1);
-    echo "The delta = " . $quadraticEquation->getDiscriminant() . '<br>';
+    echo "The Delta = " . $quadraticEquation->getDiscriminant() . '<br>';
     echo "The equation has tow roots = " . $quadraticEquation->getRoot1() . " and " . $quadraticEquation->getRoot2();
     ?>
 </body>
